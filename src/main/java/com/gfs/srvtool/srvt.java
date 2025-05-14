@@ -4,11 +4,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin {
     @override
     public void onEnable() {
-        getLogger().info("Thanks for using srvtool from GFS! Our discord: ");
+        getLogger().info("Thanks for using srvtool from GFS! Our tg channel: @GlowingFoxStudios ; our discord: ");
         getCommand("help").setExecutor(newMyCommandExecutor()); //
     }
     @override
     public void onDisable {
-        getLogger().info("our tg channel:") ;
+        getLogger().info("Thanks for using srvtool from GFS! Our tg channel: @GlowingFoxStudios ; our discord:") ;
     }
 }
