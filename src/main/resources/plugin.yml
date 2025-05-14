@@ -1,6 +1,6 @@
 name: srvtool
 version: '0.0.1-INDEV'
-main: com.gfs.srvtool.Main
+main: com.gfs.srvtool.srvt
 api-version: '1.20'
 description: A Tool for your server
 author: Glowing Fox Studio
