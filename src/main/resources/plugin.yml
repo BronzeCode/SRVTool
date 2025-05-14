@@ -1,0 +1,10 @@
+name: srvtool
+version: '0.0.1-INDEV'
+main: com.gfs.srvtool.Main
+api-version: '1.20'
+description: A Tool for your server
+author: Glowing Fox Studio
+commands:
+  help:
+    description: A command for calling help
+    usage: /srvhelp
