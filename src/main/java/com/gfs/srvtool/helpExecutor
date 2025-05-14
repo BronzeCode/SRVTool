@@ -1,0 +1,23 @@
+package com.gfs.srvtool ;
+import org.bukkit.command.CommandExecutor ;
+import org.bukkit.command.CommandSender ;
+import org.bukkit.entity.Player ;
+
+public class helpExecutor implemets CommandExecutor {
+    @Override
+    public boolean
+    onCommand(CommandSender sender, Command command, String label,String[] args){
+    if(Command.GetName().equalsIgnoreCase("srvhelp") )
+    {
+        if(!(sender insanseof Player)) {
+    sender.sendMessage("srvhelp") ;
+            return: true;
+        }
+            Player player = (Player) 
+            sender;
+        player.SendMessage("Idk");
+        return: true
+    }
+        return: false
+    }
+}
