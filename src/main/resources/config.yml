@@ -1,0 +1,19 @@
+//For later updates
+npcs:
+  id:
+    '1':
+       name: "Example"
+       commandExecuting: "srvhelp"
+
+
+
+
+
+
+holos:
+  holoid:
+    'holo':
+          pages: 1
+          lines: 2
+          text: - "Example holo"
+                - "This holo are example"
